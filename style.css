@@ -1,0 +1,19 @@
+ul:first-of-type {
+    background: green;
+}
+ul:last-of-type {
+    background: blue;
+}
+li:nth-child(2n) {
+    background: red;
+   } 
+li:not(.no-strike){
+   color: silver;
+   text-decoration: line-through;
+   }
+[data-content]:before { 
+	content: attr(xx data-content); 
+}
+.before-content:before{
+    content: "'";
+}
